@@ -119,7 +119,7 @@
     position: fixed;
     top: 0;
     /* background-color: rgba(208, 184, 31, 0.5); */
-    background-color: #039BE5;
+    background-color: #1E88E5;
     backdrop-filter: blur(10px);
 }
 
@@ -251,7 +251,7 @@
 .navigation_box>button:hover {
     /* background: var(--first-color); */
     
-    background-color: rgb(67, 199, 181)
+    background-color: rgb(98, 182, 231)
 }
 
 .navigation_box>button:hover a {
@@ -576,8 +576,11 @@
     z-index: 10;
     color: var(--grey-dark);
 }
-
+/* #black-color{
+    color: black;
+} */
 .project-description>p {
+    /* color: black; */
     margin-bottom: 0;
 }
 

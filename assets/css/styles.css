@@ -5,7 +5,7 @@
 :root {
     --header-height: 4rem;
 
-    --first-color: #105382;
+    --first-color: #424242;
     --first-color-alt: hsl(203, 69%, 33%);
     --grey-light : #925050;
     --grey-light-alt: #2c2c2c9a;
@@ -16,8 +16,8 @@
     --text-light: #a8b2d1;
     --text-lighter: #ccd6f6;
     /*--body-color: hsl(var(--hue-color), 60%, 99%);*/
-    --body-color: #C7F7F1;
-    --card-color: #9C8EC9;
+    --body-color: #EDE7F6;
+    --card-color: #1E88E5;
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
     ;

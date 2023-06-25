@@ -7,7 +7,7 @@
 
     --first-color: #424242;
     --first-color-alt: hsl(203, 69%, 33%);
-    --grey-light : #925050;
+    --grey-light: #925050;
     --grey-light-alt: #2c2c2c9a;
     --grey-dark: #2c2c2cea;
     --grey-dark-alt: #080808ea;
@@ -16,7 +16,8 @@
     --text-light: #a8b2d1;
     --text-lighter: #ccd6f6;
     /*--body-color: hsl(var(--hue-color), 60%, 99%);*/
-    --body-color: #EDE7F6;
+    --body-color: #E1F5FE;
+    /* --body-color: #CFD8DC; */
     --card-color: #1E88E5;
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -79,15 +80,20 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: var(--font-semi-bold);
     margin: 0;
     padding: 0;
 }
-p{
+
+p {
     text-align: left;
     word-spacing: normal;
 }
+
 a {
     text-decoration: none;
     transition: ease-in-out 0.25s;
@@ -112,7 +118,7 @@ img {
 
 .section_title>span {
     font-size: var(--large-font);
-    font-size: clamp(26px,5vw,var(--large-font));
+    font-size: clamp(26px, 5vw, var(--large-font));
     color: var(--grey-dark);
     margin-left: 10px;
     font-weight: 700;
@@ -161,6 +167,3 @@ img {
     background-color: var(--body-color);
 
 }
-
-
-

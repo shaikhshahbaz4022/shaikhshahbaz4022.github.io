@@ -82,3 +82,4 @@ const typed = new Typed('.multiple-text', {
     loop: true,
     smartBackspace: true, // Enables smart backspacing to simulate typing forward and backward
 });
+

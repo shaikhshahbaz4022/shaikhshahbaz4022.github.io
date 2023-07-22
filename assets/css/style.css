@@ -276,6 +276,7 @@
 .home.section {
     /* height: calc(100vh - 5rem); */
     height: 100vh;
+    margin-top: 50px;
     display: flex;
     /* background: red; */
     align-items: center;

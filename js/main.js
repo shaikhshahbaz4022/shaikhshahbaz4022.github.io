@@ -27,11 +27,11 @@ function scrollHeader() {
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*==================== SHOW SCROLL UP ====================*/ 
-function scrollUp(){
+/*==================== SHOW SCROLL UP ====================*/
+function scrollUp() {
     const scrollUp = document.getElementById('scroll-up');
     // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
-    if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+    if (this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
 
@@ -39,18 +39,18 @@ const navigation_box = document.querySelector('#navigation_box')
 const menuToggle = document.querySelector('#menuToggle')
 const nav_links = document.querySelectorAll('.nav-link')
 
-menuToggle.addEventListener('click', ()=>{
+menuToggle.addEventListener('click', () => {
     navigation_box.classList.toggle('slidein_active')
     transform_hamburger()
 })
 nav_links.forEach(el => {
-    el.addEventListener('click', ()=>{
+    el.addEventListener('click', () => {
         navigation_box.classList.toggle('slidein_active')
         transform_hamburger()
     })
 })
 
-function transform_hamburger(){
+function transform_hamburger() {
     let first = document.querySelector('#first_span')
     let second = document.querySelector('#second_span')
     let third = document.querySelector('#third_span')
@@ -62,7 +62,7 @@ function transform_hamburger(){
 
 //! ============= resume button ==========
 document.getElementById("resume-button-1").onclick = () => {
-    window.open("https://drive.google.com/file/d/18YruthNnkt_vGGuaWPg_JDWwC2UTBNBt/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1XzEm8V1Y_fA0xL9aWkYGNNzVBSBsatBh/view?usp=sharing");
 }
 
 // document.getElementById("resume-button-2").onclick = () => {

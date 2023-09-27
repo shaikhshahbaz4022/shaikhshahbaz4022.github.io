@@ -62,7 +62,7 @@ function transform_hamburger() {
 
 //! ============= resume button ==========
 document.getElementById("resume-button-1").onclick = () => {
-    window.open("https://drive.google.com/file/d/1XzEm8V1Y_fA0xL9aWkYGNNzVBSBsatBh/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1ilzvbZfmsCQXhfzfH7i_loyWPE0b6kGQ/view?usp=sharing");
 }
 
 // document.getElementById("resume-button-2").onclick = () => {
